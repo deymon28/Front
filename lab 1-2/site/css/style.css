@@ -1,0 +1,278 @@
+@charset "utf-8";
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+
+
+}
+html{height: 100%;}
+
+body{	
+	width: 100%;
+	height:100%;
+	color:#333;
+	background-color: #E3E3E3;
+	font-size: 1em;
+	font-family:"segoe UI", sans-serif;
+	line-height: 135%;
+
+	background: url("../image/par.png") repeat center;
+}
+
+a{
+	color: #5D54DC;
+	text-decoration :none;
+	transition: all.6s ease;
+	-moz-transition: all.6s ease;
+	-webkit-transition: all.6s ease;
+	-ms-transition: all.6s ease;
+}
+
+a:hover{
+	color: #FFD100;
+	text-decoration :none;
+	transition: all.6s ease;
+	-moz-transition: all.6s ease;
+	-webkit-transition: all.6s ease;
+	-ms-transition: all.6s ease;
+}
+
+a:active{
+	color:#DB0000;
+}
+
+img{
+	max-width: 100%;
+	height:auto;
+	width: auto/9;
+}
+
+.right{
+	float: right;
+}
+
+
+/* selection block */
+
+
+::selection{background-color:#5D54DC; color:white;}
+::-moz-selection{background-color:#5D54DC; color:white;}
+
+header, footer {
+	width: 98%;
+	background-color: #FFF;
+	float: left;
+}
+header{
+	border-bottom: 2px solid silver;
+	padding: 1%;
+}
+
+#logo{
+
+	font-size: 1.3em;
+	font-family: Product Sansi, sans-serif;
+
+}
+
+.contact{
+	font-size: 1.2em;
+	font-family: Product Sansi, sans-serif;
+	margin-left: 10%;
+	padding-right: 10px;
+}
+
+
+footer{
+	border-top: 2px solid silver;
+	margin-top: 10px;
+	padding: 1%;
+}
+
+#page-wrap:after{
+	content: "";
+	display: block;
+}
+
+
+/* style site */
+
+#wreper{
+	float: left;
+	width: 100%;
+}
+
+/*#main_coc_block{
+	width: 100%;
+	padding: 2% 0%;
+	border-bottom: 2px solid silver;
+	border-top: 2px solid silver;
+	margin: 20px 0px;
+	float: left;
+	background: url("image/par.png") repeat center;
+}*/
+
+#wreper #articles{
+	float: left;
+	width: 80%;
+	margin-left: 10%;
+}
+
+#wreper #articles article{
+	float: left;
+	border: 1px solid silver;
+	box-sizing: border-box;
+	border-radius: 5px;
+	background-color: #fafafa;
+	margin-top: 25px;
+	width: 77%;
+
+	min-height: 300px;
+
+}
+
+#wreper #articles .artic{
+	float: left;
+	border: 1px solid silver;
+	box-sizing: border-box;
+	border-radius: 5px;
+	background-color: #fafafa;
+	margin-top: 25px;
+	margin-left: 1%;
+	width: 22%;
+	min-height: 615px;
+
+	margin-top:-300px; 
+}
+
+
+/* styl by page: about, project, help */
+
+#about{
+	width: 100%;
+	float: left;
+	background-color: #fafafa;
+	border-radius: 5px;
+	border: 1px solid silver;
+	box-sizing: border-box;
+	padding: 1%;
+	text-align: center;
+	margin-top: 25px;
+}
+
+#project{
+	width: 100%;
+	float: left;
+	background-color: #fafafa;
+	border-radius: 5px;
+	border: 1px solid silver;
+	box-sizing: border-box;
+	padding: 1%;
+	text-align: center;
+	margin-top: 25px;
+
+	min-height: 300px;
+}
+
+#help{
+	width: 100%;
+	float: left;
+	background-color: #fafafa;
+	border-radius: 5px;
+	border: 1px solid silver;
+	box-sizing: border-box;
+	padding: 1%;
+	text-align: center;
+	margin-top: 25px;
+}
+/*form*/
+form{
+	width: 60%;
+	margin-left: 20%;
+	float: left;
+}
+form input{
+	border-radius: 5px;
+	border:2px solid silver;
+	padding: 5px;
+	margin-left: 20px;
+}
+input[type=text].field:focus{
+	border:2px solid blue;
+}
+
+footer, #page-wrap:after{
+	height: 10px;
+}
+#page-wrap{
+	min-height: 94.6%;
+	margin-bottom: -10px;
+}
+
+
+.footer{
+	text-align:center;
+}
+.ssylki{
+	padding: 15px;
+	text-decoration:none;
+	background-color:white;
+	color:black;
+	border: 1px solid white;
+}
+
+.ssylki:hover{
+	padding: 15px;
+	text-decoration:none;
+	background-color:#E3E3E3;
+	color:#1A00FF;
+	border: 1px solid white;
+}
+
+.ssylki_na_project{
+	font-size: 1.5em;
+	margin-left: 52%;
+	padding: 15px;
+	text-decoration:none;
+	background-color:white;
+	color:black;
+	border: 1px solid white;
+	margin-top: 20%;
+}
+.ssylki_na_project:hover{
+	padding: 15px;
+	text-decoration:none;
+	background-color:#E3E3E3;
+	color:#1A00FF;
+	border: 1px solid white;
+}
+
+
+.size{
+	float: left;
+	margin-left: 1%;
+	margin-top: 1.3%;
+	width: 50%;
+}
+
+.sizebic{
+	float: left;
+	margin-left: 5.5%;
+	margin-top: 4%;
+	width: 90%;
+}
+
+#h3{
+	float: left;
+	margin-left: 6%;
+	margin-top: 2%;
+}
+#h4{	
+	margin-left: 52%;
+	margin-top: 7%;
+	text-indent: 1.5em;
+}
+
+
+ /*We indie company that makes games on knees and calculators*/
